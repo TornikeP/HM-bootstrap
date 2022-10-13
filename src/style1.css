@@ -100,11 +100,60 @@ body {
     padding-top: 76px;
 }
 
-mid_text{
+.mid_text {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 180%;
     color: #FFFFFF;
+}
+
+.year_4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120%;
+    color: #676CDB;
+}
+
+.mid_text2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.box_mid {
+    width: 622.03px;
+    height: 286.4px;
+    left: 1021px;
+    top: 1386.05px;
+    background: #676CDB;
+    transform: rotate(90.47deg);
+    position: bottom;
+}
+
+.box_col {
+    padding-top: 200px;
+}
+
+.mid_box2 {
+    width: 288px;
+    height: 288px;
+    left: 1032px;
+    top: 1386px;
+    background: #C4C4C4;
+}
+
+.mid_text3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #222A36;
 }
