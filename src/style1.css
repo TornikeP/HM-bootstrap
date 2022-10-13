@@ -24,11 +24,13 @@ body {
     line-height: 30px;
     color: #FFFFFF;
 }
-.header{
+
+.header {
     position: fixed;
     top: 0;
     width: 100%;
 }
+
 .btn_contact {
     padding: 10px 20px;
     width: 152px;
@@ -37,6 +39,7 @@ body {
     color: white;
     font-weight: 600px;
 }
+
 .banner_text {
     font-family: 'Playfair Display';
     font-style: normal;
@@ -58,6 +61,10 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.nav_logo {
+    color: white;
+}
+
 .banner {
     background-image: url(../src/img/backg_photo.png);
     background-position: right;
@@ -73,5 +80,31 @@ body {
     font-size: 20px;
     line-height: 120%;
     text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.test {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.middle_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 76px;
+}
+
+mid_text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
     color: #FFFFFF;
 }
