@@ -125,6 +125,9 @@ body {
     font-size: 20px;
     line-height: 120%;
     color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .box_mid {
@@ -139,6 +142,7 @@ body {
 
 .box_col {
     padding-top: 200px;
+    position: relative;
 }
 
 .mid_box2 {
@@ -182,7 +186,6 @@ body {
     font-size: 100px;
     line-height: 120%;
     color: #C4C4C4;
-
 }
 
 .svg2 {
@@ -227,4 +230,13 @@ color: rgba(255, 255, 255, 0.5);
 }
 .color-white{
     color: white;
+}
+.mobile_image{
+    display: none;
+}
+@media only screen and (max-width: 992px){
+    background-image: none;
+}   
+.mobile_image{
+    display: block;
 }
